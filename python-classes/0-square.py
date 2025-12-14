@@ -1,28 +1,19 @@
-  GNU nano 6.2                                                                                        0-square.py                                                                                                 
 #!/usr/bin/python3
-"""Defines a Square class."""
+"""
+This module defines a Square class.
+"""
 
 
 class Square:
-    """Represents a square."""
+    """
+    This class represents a square.
+    """
 
     def __init__(self, size):
-        self.__size = size
+        """
+        Initialize a new Square instance.
 
-
-
-
-
-
-
-
-
-#!/usr/bin/python3
-"""Defines a Square class."""
-
-
-class Square:
-    """Represents a square."""
-
-    def __init__(self, size):
+        Args:
+            size: The size of the square.
+        """
         self.__size = size
